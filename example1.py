@@ -1,7 +1,7 @@
 def test1(arg1, arg2):
     """
     A simple function takes 2 arguments and returns arg1.
-
+    
     :param arg1: A value
 
     :param arg2: A Value
@@ -9,6 +9,7 @@ def test1(arg1, arg2):
     :return: arg1
     """
     arg1 = arg2
+
     return arg1
 
 def prod(x,y):
@@ -19,4 +20,5 @@ def prod(x,y):
     :return:  a, A Value
     """
     a=x*y
+
     return a
